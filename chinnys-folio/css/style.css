@@ -208,8 +208,15 @@ input {
     border: none;
     border-radius: 0;
     width: 60%;
-    height: 30px;
+    padding: 20px;
+    margin: 10px;
     
+}
+
+button, input, select, textarea {
+  font-family : inherit;
+  font-size   : 100%;
+    color: white;
 }
 
 #message {

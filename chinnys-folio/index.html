@@ -52,6 +52,17 @@
 
     <section class="contact cf">
         <h2>Contact Me</h2>
+        
+        <!--<form>
+  <fieldset>
+    <legend>Personal Details</legend>
+    <input type="text" name="firstName" placeholder="First Name">
+    <input type="text" name="lastName" placeholder="Last Name">
+    <input type="date" name="dob" value="date">
+    <input type="checkbox" name="terms" value="false" id="terms"/><label for="terms"></label> 
+    <span>Agree to terms and conditions?</span>
+  </fieldset>
+</form>
         <div id="form">
             <div class="form-group">
                 <label for="first_last">Name</label>
@@ -71,8 +82,21 @@
                 <span class="help-block"></span>
             </div>
 
-        </div>
-    </section>
+        </div>-->
+    
+    
+  
+    <form method="POST" action="/__/forms/contact">
+        <label>Name:</label>
+        <input type="text" name="name" required="" autofocus="" autocomplete="on"><br>
+        <label>Email:</label>
+        <input type="email" name="email" required="" autofocus="" autocomplete="on"><br>
+        <label>Message:</label>
+        <input type="text" name="message" placeholder="Write your message here"><br>
+        <button type="submit">SUBMIT</button>
+    </form>
+
+</section>
 
 
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
