@@ -17,7 +17,8 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -27,8 +28,8 @@
            <nav>
                <ul class="cf">
                    <li> <div class="menu-icon"></div></li>
-                   <li><a href="index.html">About Me</a></li>
                    <li><a href="projects.html">Projects</a></li>
+                   <li><a href="index.html">About Me</a></li>
                    </ul>
             </nav>
             <div id="logo"></div>
@@ -41,16 +42,19 @@
         </div>
     </section>
 
-    <section class="about cf">
+    <section class="content cf">
         <div class="bio">
             <h2>My Story</h2>
-            <p>While completing a psychology degree, I found myself yearning for a creative outlet. In considering the connection between creativity and the human mind, I found communication design. By building my design knowledge and skills over the past four years, I have come to appreciate the intimate relationship between psychology and design. These range from the relevance of Gestalt principles and the aesthetic qualities of effective design to the relevance of cognitive and behavioural science in marketing and design strategy. I am drawn to advertising, branding, packaging and UI/UX where understanding audience psychology to motivate and persuade is vital.</p>
+            <div class="bio-content cf">
+                <div class="chinny"></div>
+                <p>While completing a psychology degree, I found myself yearning for a creative outlet. In considering the connection between creativity and the human mind, I found communication design. By building my design knowledge and skills over the past four years, I have come to appreciate the intimate relationship between psychology and design. These range from the relevance of Gestalt principles and the aesthetic qualities of effective design to the relevance of cognitive and behavioural science in marketing and design strategy. I am drawn to advertising, branding, packaging and UI/UX where understanding audience psychology to motivate and persuade is vital.</p>
+            </div>
 
         </div>
 
     </section>
 
-    <section class="contact cf">
+<!--    <section class="contact cf">
         <h2>Contact Me</h2>
         <div id="form">
             <div class="form-group">
@@ -66,13 +70,39 @@
             </div>
             
             <div class="form-group">
-                <label for="email_addr">Message</label>
+                <label for="message">Message</label>
                 <input type="text" class="form-control" id="message" placeholder="Type your message here" required="">
                 <span class="help-block"></span>
             </div>
 
         </div>
-    </section>
+    </section>-->
+    
+     <section class="contact cf">
+
+            <div id="form">
+                <h1>Say hello!</h1>
+                <form>
+                    <div class="form-group">
+                        <div class="field">
+                            <input type="text" name="name" placeholder="Name" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="field">
+                            <input type="text" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="message" placeholder="Type your message here" required="">
+                        <span class="help-block"></span>
+                    </div>
+                     <div class="form-group">
+                         <button class="pure-button">Send</button>
+                    </div>
+                </form>
+            </div>
+            </section>
 
 
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
