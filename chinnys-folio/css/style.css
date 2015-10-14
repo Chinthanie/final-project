@@ -41,11 +41,11 @@ html {
 /*Navigation*/
 nav li {
     width: 100px;
-    height: 2.5em; /* 40 / 16 */
-    margin: 0.625em; / 10 / 16 */
+    height: 3em; 
+    margin: 0em; 
 }
 nav li:first-child { /* the hamburger li */
-    float: right;
+    float: left;
     display: none;
 }
 
@@ -57,13 +57,13 @@ nav {
 }
 
 .menu-icon {
-    background: url(/images/menu-icon.png) no-repeat;
-    background-size: contain;
-    background ;
-    padding: 15px;
-    position: fixed;
+    background: url(/images/menu-icon.png) no-repeat ;
+    background-size:contain;
+    height: 40px;
     top: 30px;
-    right: 50px;
+    left: 30px;
+    position: fixed;
+    display: block;
 }
 
 
@@ -92,13 +92,13 @@ body {
 
 header {
     margin: auto;
-    padding: 
+    width: 100%;
 }
 
 nav {
     margin: 0 auto;
     padding: 50px;
-    text-align: center;    
+    text-align: center;
 }
 
 
@@ -153,6 +153,11 @@ nav {
     min-height: 100%;
 }
 
+
+.contact {
+    margin-bottom: 70px;
+
+}
 .pure-button {
     background-color: rgba(255,255,255,0.5);
     color: rgb(255,255,255);
@@ -205,16 +210,26 @@ p {
     color: grey;
 }
 
-ul{
-    margin: auto;
+li {
+    padding: 30px;
+    text-align: center;
+    display: inline;
+
 }
 
 li, a {
     text-decoration: none;
     color: white;
-    display: inline;
     font-weight: 300;
     font-size: 20px;
+
+}
+
+a:active,
+a:hover {
+    border-bottom: solid white 1.5px;
+    padding-bottom: 5px;
+    
 }
 
 label {
@@ -288,36 +303,41 @@ input {
     nav {
         position: fixed;
         margin: -80px -50px;
-        height: 80px;
+        min-height: 80px;
+        width: 100%;
         background-color: rgba(255,255,255,0.9);
         z-index: 10000;
     }
     
-    
     nav li {
         display: none;
-        margin: 1.5%;
-        z-index: 10000;
-        width: 100px;
-
+        margin: 0px;
     }
-
-    
-    
     nav li:first-child { /* the hamburger li */
         display: block;
-        width: 30%;
-        
+        width: 0%;
     }
-    
     .menu-expanded li {
         display: block;
         width: 97%;
     }
     
+    li a {        
+        text-decoration: none;
+        color: slategray;
+        display: block;
+        position: fixed;
+        width: 100%;
+        left: 0px;
+        padding: 10px;
     
+}
+    
+    
+/*Content*/
     #logo {
         width: 95%;
+        position: block;
         
     }
     
