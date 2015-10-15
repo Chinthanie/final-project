@@ -7,7 +7,8 @@
             /* toggle the class menu-expanded on the ul
             ** be careful with the "this" context as our selector is a pseudo element and "this" refers to the ul
             **/
-            $(this).toggleClass('menu-expanded');
+            $(this).toggleClass('menu-expanded li');
+            
         });
         
         /*$("nav ul:first-child").click(function (e) {

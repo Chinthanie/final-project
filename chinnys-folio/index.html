@@ -17,6 +17,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -26,10 +27,11 @@
     <div id="bg"></div>
     <header>
            <nav>
-               <ul class="menu cf">
-                   <li class="menu-icon"></li>
+               <ul class="cf">
+                   <li> <div class="menu-icon"></div></li>
                    <li><a href="projects.html">Projects</a></li>
                    <li><a href="index.html">About Me</a></li>
+                   <li><a href="#contact">Contact</a></li>
                    </ul>
             </nav>
             <div id="logo"></div>
@@ -37,7 +39,6 @@
     
     <section class="landing cf">
         <div class="welcome cf">
-
             <h1>Hi there! I am a User Interface and Communications designer. I love creating user-centric designs! Please check out some of my work. </h1>
         </div>
     </section>
@@ -78,32 +79,31 @@
         </div>
     </section>-->
     
-     <footer class="contact cf">
-
-            <div id="form">
-                <h1>Say hello!</h1>
-                <form>
-                    <div class="form-group">
-                        <div class="field">
-                            <input type="text" name="name" placeholder="Name" />
-                        </div>
+    <footer class="contact cf">
+        <div id="form">
+            <h1>Say hello!</h1>
+            <form>
+                <div class="form-group">
+                    <div class="field">
+                        <input type="text" name="name" placeholder="Name" />
                     </div>
-                    <div class="form-group">
-                        <div class="field">
-                            <input type="text" name="email" placeholder="Email" />
-                        </div>
+                </div>
+                <div class="form-group">
+                    <div class="field">
+                        <input type="text" name="email" placeholder="Email" />
                     </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="message" placeholder="Type your message here" required="">
-                        <span class="help-block"></span>
-                    </div>
-                     <div class="form-group">
-                         <button class="pure-button">Send</button>
-                    </div>
-                </form>
-            </div>
-            </footer>
-
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="message" placeholder="Type your message here" required="">
+                    <span class="help-block"></span>
+                </div>
+                 <div class="form-group">
+                     <button class="pure-button">Send</button>
+                </div>
+            </form>
+        </div>
+        <a name="contact"></a>
+    </footer>
 
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
