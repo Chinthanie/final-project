@@ -245,6 +245,11 @@ a:hover {
     padding-bottom: 5px;
 }
 
+.sample-project p {
+    max-width: 400px;
+    margin: auto;
+}
+
 a p {
     position: relative;
     top: 40px;
