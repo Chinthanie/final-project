@@ -246,8 +246,9 @@ a:hover {
 }
 
 .sample-project p {
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
+    padding: 0px 25px;
 }
 
 a p {
@@ -339,6 +340,7 @@ input {
         display: none;
         margin: auto;
         position: relative;
+    
     }
     nav li:first-child {
         /* the hamburger li */
