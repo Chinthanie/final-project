@@ -48,11 +48,11 @@
 
         /*MOUSE OVER ANIMATION*/
 
-        $('.projectimage').mouseover(function () {
+        $('.projectframe').mouseover(function () {
             $(this).addClass('animated pulse');
         });
 
-        $('.projectimage').mouseleave(function () {
+        $('.projectframe').mouseleave(function () {
             $(this).removeClass('animated pulse');
         });
 
