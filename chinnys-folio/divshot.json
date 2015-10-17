@@ -1,11 +1,11 @@
 {
     "name": "chinnys-folio",
-    "root": "./",
+    "root": "./html",
     "clean_urls": true,
     "error_page": "error.html",
     "forms": {
         "contact": {
-            "to": "chinthanie@yahoo.com.au",
+            "to": "chinthanie.k.kulatunge@gmail.com",
             "from": "contact@chinthanie.com",
             "replyTo": "{{name}} <{{email}}>",
             "subject": "Chinthanie.com: Message received from {{name}}",
