@@ -124,16 +124,16 @@
                 <form method="POST" action="/__/forms/contact">
                     <div class="form-group">
                         <div class="field">
-                            <input type="text" name="name" placeholder="Name" />
+                            <input type="text" name="name" required="" autofocus="" autocomplete="on" placeholder="Name" />
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="field">
-                            <input type="text" name="email" placeholder="Email" />
+                            <input type="text" name="email" required="" autofocus="" autocomplete="on" placeholder="Email" />
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="message" placeholder="Type your message here" required="">
+                        <input type="text" class="form-control" id="message" placeholder="Type your message here" >
                         <span class="help-block"></span>
                     </div>
                     <div class="form-group">
@@ -144,8 +144,19 @@
             <a href="#top">
                 <p>Back to top</p>
             </a>
+            
+<!--EXAMPLE CODE COPIED FROM DIVSHOT-->
+            <!--<form method="POST" action="/__/forms/contact">
+        <label>Name:</label>
+        <input type="text" name="name" required="" autofocus="" autocomplete="on"><br>
+        <label>Email:</label>
+        <input type="email" name="email" required="" autofocus="" autocomplete="on"><br>
+        <label>Message:</label>
+        <input type="text" name="message" placeholder="Write your message here"><br>
+        <button type="submit">SUBMIT</button>
+    </form>
         </footer>
-    </div>
+    </div>-->
 
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/main.js"></script>
