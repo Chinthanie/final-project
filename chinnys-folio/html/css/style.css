@@ -452,8 +452,8 @@ input {
 @media screen and (max-width: 768px) {
     #container>div+div:not(.projectimages) {
         margin: 0% 0% 5% 5%;
-        width: 40%;
-        padding-bottom: 40%;
+        width: 90%;
+        padding-bottom: 90%;
     }
 }
 

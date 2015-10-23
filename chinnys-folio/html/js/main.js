@@ -10,23 +10,6 @@
         });
 
 
-        //        $('ul:last-child').click(function () {
-        //            $('nav ul:first-child').toggleClass('menu-expanded li');
-        //        });
-
-
-        //        var menu = false;
-        //        $('nav ul:first-child').click(function () {
-        //            if (!menu) {
-        //                $('ul:not(first-child)').animate({top: "80px"});
-        //                menu = true;
-        //            } else {
-        //                $("ul:not(first-child)").animate({top: "0px"});
-        //                menu = false;
-        //            }
-        //        });
-        //        
-
 
 
 
