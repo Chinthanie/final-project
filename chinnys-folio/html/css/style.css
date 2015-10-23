@@ -457,7 +457,7 @@ input {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     #container>div+div {
         position: relative;
         margin-left: 10%;
